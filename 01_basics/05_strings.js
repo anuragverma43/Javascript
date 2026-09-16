@@ -3,7 +3,7 @@ const repocount= "3"
 // there is one more way to declare string
 
 const gameName = new String('fif-a-v-com') // new keyword for using object of javascript 
-// ------------------- methods in javascript for string ---------------------//
+// -------------------------     Methods in javascript for string        -----------------------------//
 console.log(gameName[0]) //gives char f
 console.log(gameName.__proto__) // gives object 
 
@@ -34,7 +34,9 @@ console.log(gameName.split('-')) // will give array of string gamename based on 
 // and there are many more methods . learn through mdn.com
 
 
-// ---------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------
+
+
 // console.log(name + repocount + "sdjlb") // it will give contatinated string // don't see linethorugh of name it is due to typescript
 //but this this type is outdated. avoid this type syntax
 
