@@ -66,3 +66,28 @@ console.log(typeof myFunction); // gives function // called as object function
 // x = "Hello"; // x is now a string
 // x = true; // x is now a boolean
 // Where as C/C++/java/ Typescripts are statically typed languages
+
+//****************ABOUT MEM0RY  ******************//
+//1.Stack (all the premitive datatype)  2. Heap (all non- prmitive type)
+
+// 1.Stack (here a copy is provided not its reference)
+
+let myname="Anurag"
+let anothername=myname;
+anothername = "Verma";
+console.log(myname); // give Anurag
+console.log(anothername); // give Verma // beacuse here a copy of myname is provided to anothername so the changes in anothername is vaild in that copy not in actual myname.
+
+//2. Heap (here reference of that variable is provided)
+
+let userone={
+    name: "anurag verma",
+    phone: "984874349575"
+}
+let usertwo= userone
+
+usertwo.name="verma"
+
+console.log(userone.name);
+console.log(usertwo.name);
+// both will give  verma because there reference of userone is provided to usertwo 
